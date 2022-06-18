@@ -36,8 +36,8 @@
   "homepage": "https://github.com/camptocamp/inkmap#readme",
   "dependencies": {
     "@babel/runtime": "^7.12.5",
-    "geostyler-openlayers-parser": "^2.1.0",
-    "ol": "^6.5.0",
+    "geostyler-openlayers-parser": "^3.0.2",
+    "ol": "^6.14.1",
     "proj4": "^2.6.3",
     "rxjs": "^6.6.3"
   },

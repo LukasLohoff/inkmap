@@ -374,6 +374,54 @@
         </div>
         <p id="errors" class="text-danger"></p>
       </div>
+
+      <div class="mt-5" id="example-08">
+        <h2>OpenLayers map</h2>
+        <p>
+          With a given <strong>OpenLayers</strong> map inkmap can automatically generate a sprint spec.
+        </p>
+        <p>
+          Use the <code>print</code> API to begin printing a spec. This function
+          returns a
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+            >Promise</a
+          >
+          which resolves to a
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Blob"
+            >Blob</a
+          >
+          containing the map image.
+        </p>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              data-toggle="tab"
+              href=".example-08-result"
+              >Result</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href=".example-08-source"
+              >Source</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content mt-2">
+          <div class="tab-pane example-08-result show active">
+            <div class="row align-items-start">
+              <div id="map" class="map col-8" style="height: 400px; width: 100%"></div>
+              <custom-button class="col-3"> Generate! </custom-button>
+            </div>
+          </div>
+          <div class="tab-pane example-08-source">
+            <pre
+              class="rounded small"
+            ><code class="js"><%- example01 %></code></pre>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="app.js"></script>

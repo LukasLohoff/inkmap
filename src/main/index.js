@@ -10,7 +10,7 @@ import {
   newJob$,
 } from './jobs';
 
-export { downloadBlob } from './utils';
+export { downloadBlob, fromOlMap } from './utils';
 
 /**
  * @typedef {Object} TileGrid
